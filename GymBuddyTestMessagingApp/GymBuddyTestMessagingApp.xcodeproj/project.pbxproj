@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DC0CCF53C81FB3DDA725D16 /* Pods_GymBuddyTestMessagingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E75792C443F26F3B5E488C /* Pods_GymBuddyTestMessagingApp.framework */; };
+		842C11AF2679524A00C167BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C11AE2679524A00C167BE /* AppDelegate.swift */; };
+		842C11B12679524A00C167BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C11B02679524A00C167BE /* SceneDelegate.swift */; };
+		842C11B32679524A00C167BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C11B22679524A00C167BE /* ViewController.swift */; };
+		842C11B62679524A00C167BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842C11B42679524A00C167BE /* Main.storyboard */; };
+		842C11B82679524C00C167BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842C11B72679524C00C167BE /* Assets.xcassets */; };
+		842C11BB2679524C00C167BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842C11B92679524C00C167BE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		050B591BE68DCE9C82ED51D4 /* Pods-GymBuddyTestMessagingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymBuddyTestMessagingApp.debug.xcconfig"; path = "Target Support Files/Pods-GymBuddyTestMessagingApp/Pods-GymBuddyTestMessagingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		33E75792C443F26F3B5E488C /* Pods_GymBuddyTestMessagingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymBuddyTestMessagingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842C11AB2679524A00C167BE /* GymBuddyTestMessagingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymBuddyTestMessagingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842C11AE2679524A00C167BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		842C11B02679524A00C167BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		842C11B22679524A00C167BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		842C11B52679524A00C167BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842C11B72679524C00C167BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842C11BA2679524C00C167BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842C11BC2679524C00C167BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F757B9DF3F425B22A1931CAA /* Pods-GymBuddyTestMessagingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymBuddyTestMessagingApp.release.xcconfig"; path = "Target Support Files/Pods-GymBuddyTestMessagingApp/Pods-GymBuddyTestMessagingApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842C11A82679524A00C167BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC0CCF53C81FB3DDA725D16 /* Pods_GymBuddyTestMessagingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FB943AACEBB8964A8747E7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33E75792C443F26F3B5E488C /* Pods_GymBuddyTestMessagingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37A51358685CCF1F6200FDC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				050B591BE68DCE9C82ED51D4 /* Pods-GymBuddyTestMessagingApp.debug.xcconfig */,
+				F757B9DF3F425B22A1931CAA /* Pods-GymBuddyTestMessagingApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		842C11A22679524A00C167BE = {
+			isa = PBXGroup;
+			children = (
+				842C11AD2679524A00C167BE /* GymBuddyTestMessagingApp */,
+				842C11AC2679524A00C167BE /* Products */,
+				37A51358685CCF1F6200FDC5 /* Pods */,
+				0FB943AACEBB8964A8747E7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		842C11AC2679524A00C167BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842C11AB2679524A00C167BE /* GymBuddyTestMessagingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842C11AD2679524A00C167BE /* GymBuddyTestMessagingApp */ = {
+			isa = PBXGroup;
+			children = (
+				842C11AE2679524A00C167BE /* AppDelegate.swift */,
+				842C11B02679524A00C167BE /* SceneDelegate.swift */,
+				842C11B22679524A00C167BE /* ViewController.swift */,
+				842C11B42679524A00C167BE /* Main.storyboard */,
+				842C11B72679524C00C167BE /* Assets.xcassets */,
+				842C11B92679524C00C167BE /* LaunchScreen.storyboard */,
+				842C11BC2679524C00C167BE /* Info.plist */,
+			);
+			path = GymBuddyTestMessagingApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842C11AA2679524A00C167BE /* GymBuddyTestMessagingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842C11BF2679524C00C167BE /* Build configuration list for PBXNativeTarget "GymBuddyTestMessagingApp" */;
+			buildPhases = (
+				602431C93D12B3D7E537C1A4 /* [CP] Check Pods Manifest.lock */,
+				842C11A72679524A00C167BE /* Sources */,
+				842C11A82679524A00C167BE /* Frameworks */,
+				842C11A92679524A00C167BE /* Resources */,
+				50727C7730F4202552C4ECA5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymBuddyTestMessagingApp;
+			productName = GymBuddyTestMessagingApp;
+			productReference = 842C11AB2679524A00C167BE /* GymBuddyTestMessagingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842C11A32679524A00C167BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					842C11AA2679524A00C167BE = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 842C11A62679524A00C167BE /* Build configuration list for PBXProject "GymBuddyTestMessagingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842C11A22679524A00C167BE;
+			productRefGroup = 842C11AC2679524A00C167BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842C11AA2679524A00C167BE /* GymBuddyTestMessagingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842C11A92679524A00C167BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842C11BB2679524C00C167BE /* LaunchScreen.storyboard in Resources */,
+				842C11B82679524C00C167BE /* Assets.xcassets in Resources */,
+				842C11B62679524A00C167BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50727C7730F4202552C4ECA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymBuddyTestMessagingApp/Pods-GymBuddyTestMessagingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymBuddyTestMessagingApp/Pods-GymBuddyTestMessagingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GymBuddyTestMessagingApp/Pods-GymBuddyTestMessagingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		602431C93D12B3D7E537C1A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymBuddyTestMessagingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842C11A72679524A00C167BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842C11B32679524A00C167BE /* ViewController.swift in Sources */,
+				842C11AF2679524A00C167BE /* AppDelegate.swift in Sources */,
+				842C11B12679524A00C167BE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		842C11B42679524A00C167BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842C11B52679524A00C167BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842C11B92679524C00C167BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842C11BA2679524C00C167BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842C11BD2679524C00C167BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		842C11BE2679524C00C167BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842C11C02679524C00C167BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 050B591BE68DCE9C82ED51D4 /* Pods-GymBuddyTestMessagingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JFWBN82LK;
+				INFOPLIST_FILE = GymBuddyTestMessagingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Semisi-Taufa.GymBuddyTestMessagingApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842C11C12679524C00C167BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F757B9DF3F425B22A1931CAA /* Pods-GymBuddyTestMessagingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JFWBN82LK;
+				INFOPLIST_FILE = GymBuddyTestMessagingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Semisi-Taufa.GymBuddyTestMessagingApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842C11A62679524A00C167BE /* Build configuration list for PBXProject "GymBuddyTestMessagingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C11BD2679524C00C167BE /* Debug */,
+				842C11BE2679524C00C167BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842C11BF2679524C00C167BE /* Build configuration list for PBXNativeTarget "GymBuddyTestMessagingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C11C02679524C00C167BE /* Debug */,
+				842C11C12679524C00C167BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842C11A32679524A00C167BE /* Project object */;
+}
